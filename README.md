@@ -2,11 +2,11 @@
 
 ### Description
 
-The following program can be used to calculate the mean squared difference of two images in python using GPU accelerated computing. It specifically operates on **Pillow** Image objects, and utilises the **pyopencl** module.
+The following program can be used to calculate the mean squared difference of two images in Python using GPU accelerated computing. It specifically operates on **Pillow** Image objects, and utilises the **pyopencl** module.
 
 ### Usage
 
-The two images the program will read by default are *image0.png* and *image1.png* and there is currently no way to change this without editing the source code. 
+The two images the program will read by default are *image0.png* and *image1.png* and there is currently no way to change this without editing the source code. The program will display the mean squared difference and the time it took to run the mean squared difference calculation (does not include execution time of the whole module).
 
 **Windows:**
 
